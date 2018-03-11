@@ -5,18 +5,9 @@ package proxy.cglib;
  */
 public class GuoYongZun {
 
-	private String name;
-
-	public void getMyPrefence(){
-		System.out.println("我的兴趣是" + name);
+	public void getMyPrefence(String name){
+		System.out.println("我要找的" + name);
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
 
-	public String getName() {
-
-		return name;
-	}
 }
